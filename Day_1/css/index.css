@@ -1,0 +1,35 @@
+body{
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor-sidebar{
+  display: inline-block;
+  background-color: #005571;
+  width: 15%;
+  height: 100vh;
+}
+.real-body{
+  display: inline-block;
+  width: 84%;
+}
+.sidebar-elements{
+  /*box-model*/
+  list-style-type: none;
+  border: 1px solid #136c8a;
+  width: 180px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*Box-position*/
+  position: relative;
+  left: -35px;
+  /*box-content*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.sidebar-elements:hover{
+  cursor: pointer;
+  background-color: #136c8a;
+}
