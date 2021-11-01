@@ -13,10 +13,9 @@ body{
   display: inline-block;
   width: 84%;
 }
-.sidebar-elements{
+.contenedor-sidebar ul li{
   /*box-model*/
   list-style-type: none;
-  border: 1px solid #136c8a;
   width: 180px;
   height: 44px;
   display: flex;
@@ -29,7 +28,11 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
-.sidebar-elements:hover{
+.contenedor-sidebar ul li:hover{
   cursor: pointer;
   background-color: #136c8a;
+}
+.contenedor-sidebar a{
+  text-decoration: none;
+  color: inherit;
 }
